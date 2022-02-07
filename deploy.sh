@@ -16,10 +16,12 @@ cd dist
 git add -A
 git commit -m 'deploy'
 
+# gh-pages -d dist
+
 # если вы публикуете по адресу https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/romanmorf/tiktok.git master:gh-pages 
+git push -f https://github.com/romanmorf/homework-4.git master:gh-pages 
 
 cd -
